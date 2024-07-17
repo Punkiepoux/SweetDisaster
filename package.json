@@ -1,0 +1,24 @@
+{
+  "name": "sweetdisaster",
+  "version": "1.0.0",
+  "description": "site web ecommerce pour Sweet Disaster",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "setup": "evershop install",
+    "build": "evershop build",
+    "start": "evershop start",
+    "start:debug": "evershop start --debug",
+    "dev": "evershop dev",
+    "user:create": "evershop user:create",
+    "user:changePassword": "evershop user:changePassword"
+  },
+  "workspaces": [
+    "extensions/*"
+  ],
+  "author": "Antoine Dausque",
+  "license": "ISC",
+  "dependencies": {
+    "@evershop/evershop": "^1.1.0"
+  }
+}
